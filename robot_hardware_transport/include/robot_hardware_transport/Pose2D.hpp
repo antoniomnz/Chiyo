@@ -13,12 +13,12 @@ public:
     Pose2D(float x = 0.0f, float y = 0.0f, float theta = 0.0f) 
         : x_(x), y_(y), theta_(theta) {}
 
-    // Métodos de acceso (Getters) que retornan las posiciones[cite: 7]
+    // Métodos de acceso (Getters) que retornan las posiciones
     float getX() const { return x_; }
     float getY() const { return y_; }
     float getTheta() const { return theta_; }
 
-    // Método de actualización (Setter) para modificar los valores de forma segura[cite: 7]
+    // Método de actualización (Setter) para modificar los valores de forma segura
     void setPose(float x, float y, float theta) {
         x_ = x;
         y_ = y;
