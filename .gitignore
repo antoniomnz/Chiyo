@@ -1,0 +1,8 @@
+# Ignorar caché y binarios de compilación
+__pycache__/
+*.o
+*.os
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
